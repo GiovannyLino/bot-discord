@@ -293,4 +293,4 @@ async def permissao_error(ctx, error):
     elif isinstance(error, commands.BadArgument):
         await ctx.send(embed=criar_embed("Erro", "❌ Argumento inválido! Certifique-se de mencionar corretamente.", discord.Color.red()))
 
-bot.run("MTM4NTMwNzMzNzE0ODk5MzY5OA.GlFx_G.yzFGVcLUFCowfgWUaWeEwbGcrJxnnOEnvBOJa4")
+bot.run(TOKEN)
